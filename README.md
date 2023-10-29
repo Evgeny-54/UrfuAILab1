@@ -36,6 +36,7 @@
 установить необходимое программное обеспечение, которое пригодится для создания интеллектуальных моделей на Python. Рассмотреть процесс установки игрового движка Unity для разработки игр.
 
 ## Задание 1
+### Написать программу Hello World на Python с запуском в Jupiter Notebook
 <picture>
 
  <img alt="point1.png" src="https://github.com/Evgeny-54/UrfuAI/blob/main/point1.png">
@@ -43,21 +44,7 @@
 
 ```py
 
-In [ ]:
-#Import the required modules, numpy for calculation, and Matplotlib for drawing
-import numpy as np
-import matplotlib.pyplot as plt
-#This code is for jupyter Notebook only
-%matplotlib inline
-
-# define data, and change list to array
-x = [3,21,22,34,54,34,55,67,89,99]
-x = np.array(x)
-y = [2,22,24,65,79,82,55,130,150,199]
-y = np.array(y)
-
-#Show the effect of a scatter plot
-plt.scatter(x,y)
+print("Hello World)
 
 ```
 
@@ -66,26 +53,30 @@ plt.scatter(x,y)
 
 ## Задание 2
 
+<picture>
 
-```py
+ <img alt="point2.png" src="https://github.com/Evgeny-54/UrfuAI/blob/main/point2.png">
+</picture>
 
-import ScriptEnv
-ScriptEnv.Initialize("Ansoft.ElectronicsDesktop")
-oDesktop.RestoreWindow()
-oProject = oDesktop.NewProject()
-oProject.Rename("C:/Users/denisov.dv/Documents/Ansoft/SphereDIffraction.aedt", True)
-oProject.InsertDesign("HFSS", "HFSSDesign1", "HFSS Terminal Network", "")
-oDesign = oProject.SetActiveDesign("HFSSDesign1")
-oEditor = oDesign.SetActiveEditor("3D Modeler")
-oEditor.CreateSphere(
-	[
-		"NAME:SphereParameters",
-		"XCenter:="		, "0mm",
-		"YCenter:="		, "0mm",
-		"ZCenter:="		, "0mm",
-		"Radius:="		, "1.0770329614269mm"
-	], 
-)
+```c#
+
+using UnityEngine;
+
+public class Hello : MonoBehaviour
+{
+    // Start is called before the first frame update
+    void Start()
+    {
+        Debug.Log(" Hello World");
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+
+    }
+}
+
 
 ```
 
