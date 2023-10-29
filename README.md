@@ -29,6 +29,8 @@
 - Написать программу Hello World на Python с запуском в Jupiter Notebook
 - Задание 2.
 - Написать программу Hello World на C# с запуском на Unity.
+- Задание 3
+- Оформить отчет в виде документации на github (markdown-разметка).
 - Выводы.
 - ✨Magic ✨
 
@@ -52,7 +54,7 @@ print("Hello World)
 
 
 ## Задание 2
-
+### Написать программу Hello World на C# с запуском на Unity.
 <picture>
 
  <img alt="point2.png" src="https://github.com/Evgeny-54/UrfuAI/blob/main/point2.png">
@@ -79,7 +81,8 @@ public class Hello : MonoBehaviour
 
 
 ```
-
+## Задание 3
+Оформить отчет в виде документации на github (markdown-разметка).
 
 
 ## Выводы
